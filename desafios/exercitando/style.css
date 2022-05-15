@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root{
+    --cor0: #007A52;
+    --cor1: #154737;
+    --cor2: #002F1F;
+    --cor3: #257A5E;
+    --cor4: #00C785;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Fjalla One', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom, #002F1F, #257A5E, #00C785);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+header h1{
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-shadow: 4px 8px 8px rgba(0, 0, 0, 0.274);
+}
+
+header p {
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    text-shadow: 4px 8px 8px rgba(0, 0, 0, 0.274);;
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.219);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    font-family: var(--fonte-destaque);
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #E9E9E9;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2{
+    color: #002A20;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 1.8em;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+    text-indent: 8px;
+    margin-left: -20px;
+}
+
+main p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+    
+}
+
+main img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+div.libertadores{
+    margin-top: -1.5%;
+}
+
+aside{
+    background-color: #007A52;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+}
+
+aside > h3{
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8;
+    padding: 5px;
+    font-family: var(--fonte-destaque);
+}

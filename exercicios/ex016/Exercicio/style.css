@@ -1,0 +1,35 @@
+@charset "UTF8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #1C5925, #A0D7B0, #cbe6c4, #65A66F, #022601);
+    background-image: url(fundo\ palmeiras.png);
+}
+main{
+    background-color: #bcd1b6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(2, 32, 1, 0.486);
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    color: #1C5925;
+    text-align: center;
+    text-shadow: 1px 1px 2px #65A66F;
+}
+h2{
+    color: #1C5925;
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
+
+audio{
+    text-align: center;
+}

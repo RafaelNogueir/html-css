@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-image: linear-gradient(to right, #005A5B, #007369, #008C72, #02A676);
+    color: white;
+}
+header{
+    background-image: linear-gradient(to right,#377932, #47852B, #A2FFA4);
+    padding: 10px;
+    margin: 10px;
+}
+header > h1{
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(73 30 3 / 59%);
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+#tabela{
+    color: black;
+    background-color: rgba(115, 197, 115, 0.822);
+    border-radius: 10px;
+}
+#video{
+    background-color: #073d0899;
+}
+
+footer{
+    background-color: #163a1799;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 4px;
+}
+
+
+header>p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header > p :visited{
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: red;
+}
+
+
